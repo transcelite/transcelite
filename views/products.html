@@ -1,0 +1,42 @@
+<div class="box">
+	<div class="row">
+		<div class="col-sm-4 col-md-3 sidebar">
+			<div class="mini-submenu">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</div>
+			<div class="list-group">
+				<span href="#" class="list-group-item active">
+					Product list
+					<span class="pull-right" id="slide-submenu">
+						<i class="fa fa-times"></i>
+					</span>
+				</span>
+				<a ui-sref=".vegetables" class="list-group-item">
+					<i class="fa fa-comment-o"></i> Vegetables
+				</a>
+				<a ui-sref=".fruits" class="list-group-item">
+					<i class="fa fa-search"></i> Fruits
+				</a>
+				<a ui-sref=".spices" class="list-group-item">
+					<i class="fa fa-user"></i> Spices
+				</a>
+				<a ui-sref=".pulses" class="list-group-item">
+					<i class="fa fa-folder-open-o"></i> Pulses
+				</a>
+				<a ui-sref=".cereals" class="list-group-item">
+					<i class="fa fa-bar-chart-o"></i> Cereals
+				</a>
+				<a ui-sref=".fibrecrops" class="list-group-item">
+					<i class="fa fa-envelope"></i> Fibre crops
+				</a>
+			</div>    
+		</div>
+		<div class="col-sm-4 col-md-9 sidebar">
+			<div ui-view></div>
+		</div>
+	</div>
+</div>
+
+    
