@@ -12,6 +12,14 @@
             <p>We also export silk and spices from Inda </p>
          </div>
 		 <div class="clearfix"></div>
+		 
+		 <ul class="gallery gallery1" >
+  <li ng-repeat="image in images">
+    <a ng-click="openLightboxModal($index)">
+      <img ng-src="{{image.thumbUrl}}" class="img-thumbnail">
+    </a>
+  </li>
+</ul>
 </div>
 
     
